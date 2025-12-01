@@ -63,8 +63,6 @@ export default function Registration() {
             https://admissions.kifees.com/events/kahe/icercs
           </Link>
         </p>
-        <p  className="text-yellow-500 text-xl">The conference dates have been postponed. The revised dates will be announced later.
-</p>
       </div>
 
       <div className="p-2 text-white">
@@ -94,12 +92,19 @@ export default function Registration() {
           <h3 className="text-2xl font-black pt-5 text-gold text-center">
             Conference Submission Link
           </h3>
-          <p className="text-center text-white">
-            Use this link for submission <br />
-            <Link href="https://cmt3.research.microsoft.com/ICERCS2025">
+          <div className="text-center text-white pt-2">
+            <p>Use this link for submission</p>
+            <Link
+              href="https://cmt3.research.microsoft.com/ICERCS2025"
+              className="break-all hover:text-secondary transition-colors"
+            >
               https://cmt3.research.microsoft.com/ICERCS2025
             </Link>
-          </p>
+            <p className="text-yellow-500 text-xl mt-4 font-bold">
+              The conference dates have been postponed. The revised dates will
+              be announced later.
+            </p>
+          </div>
         </div>
       </div>
     </div>
