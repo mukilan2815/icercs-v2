@@ -2,7 +2,7 @@ import SpeakerCard from "./SpeakerCard";
 
 export default function KeynoteSpeakers() {
   const speakers = [
-    {
+      {
       name: "DR. PHAM THI THU THUY",
       title:
         "Dean - Faculty of Information Technology, Nha Trang University, Vietnam",
