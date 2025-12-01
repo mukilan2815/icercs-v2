@@ -162,7 +162,7 @@ export default function Home() {
               EMERGING RESEARCH IN COMPUTATIONAL SCIENCE - 2025
             </h1>
             <div className="flex items-center justify-center py-1">
-              <span className="text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight">
+              <span className="text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight line-through">
                 11<sup className="text-[6px]">th</sup>, 12
                 <sup className="text-[6px]">th</sup>, 13
                 <sup className="text-[6px]">th</sup> December 2025
