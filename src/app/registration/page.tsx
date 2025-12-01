@@ -63,6 +63,8 @@ export default function Registration() {
             https://admissions.kifees.com/events/kahe/icercs
           </Link>
         </p>
+        <p  className="text-yellow-500 text-xl">The conference dates have been postponed. The revised dates will be announced later.
+</p>
       </div>
 
       <div className="p-2 text-white">
@@ -85,7 +87,7 @@ export default function Registration() {
 
             <div className="text-white text-center">
               <p className="pt-2 text-lg font-bold">Conference Date</p>
-              <h4 className="text-xl">11, 12 and 13th Dec, 2025</h4>
+              <h4 className="text-xl line-through">11, 12 and 13th Dec, 2025</h4>
             </div>
           </div>
 
@@ -108,7 +110,7 @@ function DateWithLabel({ date, label }: { date: string; label: string }) {
   return (
     <div className="text-white text-center">
       <p className="pt-2 text-lg font-bold">{label}</p>
-      <h4>{date}</h4>
+      <h4 className="line-through">{date}</h4>
     </div>
   );
 }
