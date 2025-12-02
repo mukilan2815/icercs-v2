@@ -65,27 +65,27 @@ export default function Registration() {
         </p>
       </div>
 
-      <div className="p-2 text-white">
+      {/* <div className="p-2 text-white">
         <div className="h-full w-full bg-transparent rounded p-5">
           <h3 className="text-2xl font-black text-gold text-center">
             Important Dates
           </h3>
 
           <div className="space-y-3">
-            <DateWithLabel date="20/11/2025" label="Full Paper Submission" />
-            <DateWithLabel date="23/11/2025" label="Paper Acceptance" />
+            <DateWithLabel date="20/11/2026" label="Full Paper Submission" />
+            <DateWithLabel date="23/11/2026" label="Paper Acceptance" />
             <DateWithLabel
-              date="26/11/2025"
+              date="26/11/2026"
               label="Camera Ready Paper Submission"
             />
             <DateWithLabel
-              date="28/11/2025"
+              date="28/11/2026"
               label="Last Date for Registration Payment"
             />
 
             <div className="text-white text-center">
               <p className="pt-2 text-lg font-bold">Conference Date</p>
-              <h4 className="text-xl line-through">11, 12 and 13th Dec, 2025</h4>
+              <h4 className="text-xl line-through">11, 12 and 13th Dec, 2026</h4>
             </div>
           </div>
 
@@ -95,10 +95,10 @@ export default function Registration() {
           <div className="text-center text-white pt-2">
             <p>Use this link for submission</p>
             <Link
-              href="https://cmt3.research.microsoft.com/ICERCS2025"
+              href="https://cmt3.research.microsoft.com/ICERCS2026"
               className="break-all hover:text-secondary transition-colors"
             >
-              https://cmt3.research.microsoft.com/ICERCS2025
+              https://cmt3.research.microsoft.com/ICERCS2026
             </Link>
             <p className="text-yellow-500 text-xl mt-4 font-bold">
               The conference dates have been postponed. The revised dates will
@@ -106,7 +106,7 @@ export default function Registration() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

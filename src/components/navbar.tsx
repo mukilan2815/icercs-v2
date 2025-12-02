@@ -41,7 +41,7 @@ const Navbar = () => {
                 KAHE
               </Link>
               <Link href="/about-icercs" className="block px-4 py-2 text-gray-800 hover:bg-secondary hover:text-white">
-                ICERCS&apos;25
+                ICERCS&apos;26
               </Link>
               <Link href="/about-coimbatore" className="block px-4 py-2 text-gray-800 hover:bg-secondary hover:text-white">
                 Coimbatore
@@ -170,7 +170,7 @@ const Navbar = () => {
             <div className="font-semibold mb-2">About</div>
             <div className="ml-4 space-y-2">
               <Link href="/about-kahe" className="block py-1"> KAHE</Link>
-              <Link href="/about-icercs" className="block py-1"> ICERCS&apos;25</Link>
+              <Link href="/about-icercs" className="block py-1"> ICERCS&apos;26</Link>
               <Link href="/about-coimbatore" className="block py-1"> Coimbatore</Link>
             </div>
           </div>

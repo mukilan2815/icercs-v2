@@ -155,19 +155,19 @@ export default function Home() {
           {/* Title Section */}
           <div className=" px-2  sm:px-3 md:py-2 md:px-4 lg:px-6 xl:px-8 2xl:px-10 3xl:px-12 4xl:px-14 5xl:px-16">
             <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl text-blue-300 font-bold pb-1  leading-tight">
-              ICERCS-2025
+              ICERCS-2026
             </h1>
             <h1 className="text-center text-[8px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[20px] 4xl:text-[22px] font-medium leading-normal text-white">
               3<sup className="text-[6px]">rd</sup> INTERNATIONAL CONFERENCE ON
-              EMERGING RESEARCH IN COMPUTATIONAL SCIENCE - 2025
+              EMERGING RESEARCH IN COMPUTATIONAL SCIENCE - 2026
             </h1>
-            <div className="flex items-center justify-center py-1">
+            {/* <div className="flex items-center justify-center py-1">
               <span className="text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight line-through">
                 11<sup className="text-[6px]">th</sup>, 12
                 <sup className="text-[6px]">th</sup>, 13
-                <sup className="text-[6px]">th</sup> December 2025
+                <sup className="text-[6px]">th</sup> December 2026
               </span>
-            </div>
+            </div> */}
 
             {/* Image Slider */}
             <div className="mt-2 ml-5 w-full ">
@@ -205,13 +205,13 @@ export default function Home() {
                   ))}
 
                   {/* overlay marquee */}
-                  <div className="absolute bottom-0 left-0 right-0">
+                  {/* <div className="absolute bottom-0 left-0 right-0">
                     <div className="overflow-hidden bg-black/40 border-t border-white/30">
                       <div className="whitespace-nowrap animate-marquee text-sm font-semibold text-white py-1 px-4 opacity-80">
                         The conference dates have been postponed. The revised dates will be announced later.
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -250,7 +250,7 @@ export default function Home() {
                 service to manage the peer-reviewing process of this conference.
                 This service was provided at no cost, including Azure cloud
                 services, software development, and technical support, enabling
-                a smooth and efficient review process for ICERCS-2025.
+                a smooth and efficient review process for ICERCS-2026.
               </div>
             </div>
           </div>
