@@ -21,8 +21,9 @@ export default function AboutICERCS() {
         in parallel tracks. Furthermore, icercs'26 gathers influential and
         leading personalities to debate the most critical issues and suggest
         fruitful information on various industries and best practices to be
-        adopted. icercs'26 is scheduled to be held from 11th to 13th Dec 2026 at
-        Karpagam Academy of Higher Education, Coimbatore
+        adopted.
+         {/* icercs'26 is scheduled to be held from 11th to 13th Dec 2026 at
+        Karpagam Academy of Higher Education, Coimbatore */}
       </p>
       <h3 className="text-3xl  py-5 text-yellow-500">
         SCOPE OF THE CONFERENCE
