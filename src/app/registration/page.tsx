@@ -96,7 +96,7 @@ export default function Registration() {
             <p>Use this link for submission</p>
             <Link
               href="https://cmt3.research.microsoft.com/ICERCS2026"
-              className="break-all hover:text-secondary transition-colors"
+              className="break-all underline hover:text-secondary transition-colors"
             >
               https://cmt3.research.microsoft.com/ICERCS2026
             </Link>

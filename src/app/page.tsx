@@ -26,8 +26,7 @@ export default function Home() {
       title:
         "Pro Vice-Chancellor, Global Engagement, INTI International University, Malaysia",
       university: "",
-      image:
-        "https://i1.rgstatic.net/ii/profile.image/946594400714753-1602597100353_Q512/Khang-Wen-Goh.jpg",
+      image: "/golugoluboy.png",
     },
     {
       name: "DR. NORLINA MOHD SABRI",
