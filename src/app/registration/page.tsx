@@ -95,10 +95,10 @@ export default function Registration() {
           <div className="text-center text-white pt-2">
             <p>Use this link for submission</p>
             <Link
-              href="https://cmt3.research.microsoft.com/ICERCS2026"
+              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICERCS2025"
               className="break-all underline hover:text-secondary transition-colors"
             >
-              https://cmt3.research.microsoft.com/ICERCS2026
+              https://cmt3.research.microsoft.com/ICERCS2025
             </Link>
            
           </div>
