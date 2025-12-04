@@ -124,7 +124,7 @@ const Navbar = () => {
         </div>
 
         {/* Right Logo */}
-        <div className="flex items-center gap-3">
+        <div className="flex mt-5 items-center gap-3">
           <Image
             src="/ieeemadras.png"
             alt="IEEE Madras"
