@@ -265,9 +265,7 @@ export default function Home() {
             </h3>
             <div className="w-full flex-1 overflow-hidden relative">
               <div className="flex flex-col gap-3 animate-vertical-marquee">
-                {/* First set of content */}
                 <div>
-                  {/* Group: Co-Host */}
                   <div className="text-xs lg:text-sm font-semibold text-green-700 text-center">
                     Co-Host
                   </div>
@@ -341,9 +339,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* Duplicate content for seamless looping */}
                 <div>
-                  {/* Group: Co-Host */}
                   <div className="text-xs lg:text-sm font-semibold text-green-700 text-center">
                     Co-Host
                   </div>
