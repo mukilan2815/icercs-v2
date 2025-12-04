@@ -205,13 +205,14 @@ export default function Home() {
                   ))}
 
                   {/* overlay marquee */}
-                  {/* <div className="absolute bottom-0 left-0 right-0">
+                  <div className="absolute bottom-0 left-0 right-0">
                     <div className="overflow-hidden bg-black/40 border-t border-white/30">
                       <div className="whitespace-nowrap animate-marquee text-sm font-semibold text-white py-1 px-4 opacity-80">
-                        The conference dates have been postponed. The revised dates will be announced later.
+                        Final Paper Submission — Deadline: 3<sup>rd</sup>{" "}
+                        November 2025
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
