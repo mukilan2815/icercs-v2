@@ -65,7 +65,7 @@ export default function Registration() {
         </p>
       </div>
 
-      {/* <div className="p-2 text-white">
+      <div className="p-2 text-white">
         <div className="h-full w-full bg-transparent rounded p-5">
           <h3 className="text-2xl font-black text-gold text-center">
             Important Dates
@@ -85,7 +85,7 @@ export default function Registration() {
 
             <div className="text-white text-center">
               <p className="pt-2 text-lg font-bold">Conference Date</p>
-              <h4 className="text-xl line-through">11, 12 and 13th Dec, 2026</h4>
+              <h4 className="text-xl">11, 12 and 13th Dec, 2026</h4>
             </div>
           </div>
 
@@ -100,13 +100,10 @@ export default function Registration() {
             >
               https://cmt3.research.microsoft.com/ICERCS2026
             </Link>
-            <p className="text-yellow-500 text-xl mt-4 font-bold">
-              The conference dates have been postponed. The revised dates will
-              be announced later.
-            </p>
+           
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
@@ -115,7 +112,7 @@ function DateWithLabel({ date, label }: { date: string; label: string }) {
   return (
     <div className="text-white text-center">
       <p className="pt-2 text-lg font-bold">{label}</p>
-      <h4 className="line-through">{date}</h4>
+      <h4>{date}</h4>
     </div>
   );
 }

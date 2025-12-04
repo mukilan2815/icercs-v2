@@ -27,7 +27,7 @@ export default function Home() {
         "Pro Vice-Chancellor, Global Engagement, INTI International University, Malaysia",
       university: "",
       image:
-        "https://i1.rgstatic.net/ii/profile.image/946594400714753-1602697100353_Q512/Khang-Wen-Goh.jpg",
+        "https://i1.rgstatic.net/ii/profile.image/946594400714753-1602597100353_Q512/Khang-Wen-Goh.jpg",
     },
     {
       name: "DR. NORLINA MOHD SABRI",
@@ -155,24 +155,24 @@ export default function Home() {
           {/* Title Section */}
           <div className=" px-2  sm:px-3 md:py-2 md:px-4 lg:px-6 xl:px-8 2xl:px-10 3xl:px-12 4xl:px-14 5xl:px-16">
             <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl text-blue-300 font-bold pb-1  leading-tight">
-              ICERCS-2026
+              ICERCS-2025
             </h1>
             <h1 className="text-center text-[8px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[20px] 4xl:text-[22px] font-medium leading-normal text-white">
               3<sup className="text-[6px]">rd</sup> INTERNATIONAL CONFERENCE ON
-              EMERGING RESEARCH IN COMPUTATIONAL SCIENCE - 2026
+              EMERGING RESEARCH IN COMPUTATIONAL SCIENCE - 2025
             </h1>
             {/* <div className="flex items-center justify-center py-1">
               <span className="text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight line-through">
                 11<sup className="text-[6px]">th</sup>, 12
                 <sup className="text-[6px]">th</sup>, 13
-                <sup className="text-[6px]">th</sup> December 2026
+                <sup className="text-[6px]">th</sup> December 2025
               </span>
             </div> */}
 
             {/* Image Slider */}
             <div className="mt-2 ml-5 w-full ">
               <div className="mx-2 sm:-mx-3 md:-mx-4 ml-36 lg:-mx-6 xl:-mx-8 2xl:-mx-10 3xl:-mx-12 4xl:-mx-14 5xl:-mx-16">
-                <div className="relative overflow-hidden rounded-2xl w-full shadow-2xl h-60 sm:h-72 md:h-80 lg:h-[26rem] xl:h-[30rem] 2xl:h-[32rem] max-h-[67vh] border-4 border-gray-300">
+                <div className="relative overflow-hidden rounded-2xl w-full shadow-2xl h-60 sm:h-72 md:h-80 lg:h-[25rem] xl:h-[30rem] 2xl:h-[32rem] max-h-[67vh] border-4 border-gray-300">
                   {/* Dynamic slides from 2023 and 2024 folders */}
                   {[
                     // 2023 images (1.jpg to 16.jpg)
@@ -250,7 +250,7 @@ export default function Home() {
                 service to manage the peer-reviewing process of this conference.
                 This service was provided at no cost, including Azure cloud
                 services, software development, and technical support, enabling
-                a smooth and efficient review process for ICERCS-2026.
+                a smooth and efficient review process for ICERCS-2025.
               </div>
             </div>
           </div>

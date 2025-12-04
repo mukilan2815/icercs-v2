@@ -14,7 +14,7 @@ export default function GuideLines() {
         <p className='text-sm mb-4'>
           By submitting a research paper, authors agree that if accepted, they
           will submit a camera-ready version of the updated paper for inclusion
-          in the final ICERCS26 proceedings and present the paper at the
+          in the final ICERCS25 proceedings and present the paper at the
           conference. At least one author of each accepted paper must register
           for the conference by the time the camera-ready article is submitted
           for inclusion in the proceedings.
