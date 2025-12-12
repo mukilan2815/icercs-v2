@@ -172,17 +172,12 @@ export default function Home() {
             <div className="mt-2 ml-5 w-full ">
               <div className="mx-2 sm:-mx-3 md:-mx-4 ml-36 lg:-mx-6 xl:-mx-8 2xl:-mx-10 3xl:-mx-12 4xl:-mx-14 5xl:-mx-16">
                 <div className="relative overflow-hidden rounded-2xl w-full shadow-2xl h-60 sm:h-72 md:h-80 lg:h-[25rem] xl:h-[30rem] 2xl:h-[32rem] max-h-[67vh] border-4 border-gray-300">
-                  {/* Dynamic slides from 2023 and 2024 folders */}
+                  {/* Dynamic slides from 2025 folder */}
                   {[
-                    // 2023 images (1.jpg to 16.jpg)
-                    ...Array.from({ length: 16 }, (_, i) => ({
-                      src: `/2023/${i + 2}.jpg`,
-                      alt: `2023 Image ${i + 2}`,
-                    })),
-                    // 2024 images (1.jpeg to 55.jpeg)
-                    ...Array.from({ length: 55 }, (_, i) => ({
-                      src: `/2024/${i + 2}.jpeg`,
-                      alt: `2024 Image ${i + 2}`,
+                    // 2025 images (1 (1).jpeg to 1 (34).jpeg)
+                    ...Array.from({ length: 34 }, (_, i) => ({
+                      src: `/2025/1 (${i + 1}).jpeg`,
+                      alt: `ICERCS 2025 Image ${i + 1}`,
                     })),
                   ].map((img, index) => (
                     <div
