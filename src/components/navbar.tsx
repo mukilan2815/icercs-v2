@@ -49,7 +49,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <Link href="/keynote-speakers">Keynote Speakers</Link>
+          {/* <Link href="/keynote-speakers">Keynote Speakers</Link> */}
           
           {/* Committee Dropdown */}
           <div className="relative group">

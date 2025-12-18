@@ -67,7 +67,7 @@ export default function Home() {
     <div className="flex min-h-screen">
       {" "}
       {/* LEFT SIDE - Keynote Speakers */}
-      <div className="hidden lg:flex flex-col fixed left-1 lg:left-2 xl:left-3 2xl:left-4 top-20 lg:top-24 xl:top-28 z-50 w-[300px] bottom-4">
+      {/* <div className="hidden lg:flex flex-col fixed left-1 lg:left-2 xl:left-3 2xl:left-4 top-20 lg:top-24 xl:top-28 z-50 w-[300px] bottom-4">
         <div className="flex flex-col items-center p-3 w-full h-full overflow-hidden relative bg-white rounded-xl shadow-lg">
           <h2 className="text-base lg:text-lg font-black text-secondary mb-5 text-center uppercase">
             Keynote Speakers
@@ -104,7 +104,6 @@ export default function Home() {
                   )}
                 </div>
               ))}
-              {/* Duplicate for seamless loop */}
               {speakers.map((speaker, index) => (
                 <div
                   key={`duplicate-${index}`}
@@ -140,18 +139,15 @@ export default function Home() {
               ))}
             </div>
           </div>
-          {/* Floating Particles Effect - Smaller */}
           <div className="absolute inset-0 pointer-events-none">
             <div className="animate-float-slow absolute top-4 left-2 w-1 h-1 bg-green-400 rounded-full opacity-40"></div>
             <div className="animate-float-medium absolute top-12 left-4 w-1.5 h-1.5 bg-green-300 rounded-full opacity-30"></div>
             <div className="animate-float-fast absolute top-20 left-1 w-1 h-1 bg-green-500 rounded-full opacity-35"></div>
           </div>
         </div>
-      </div>
-      {/* MAIN CONTENT - Center */}
+      </div> */}
       <div className="w-full lg:pl-[320px] lg:pr-[380px] -pt-72 pb-8">
         <div className="flex flex-col justify-center">
-          {/* Title Section */}
           <div className=" px-2  sm:px-3 md:py-2 md:px-4 lg:px-6 xl:px-8 2xl:px-10 3xl:px-12 4xl:px-14 5xl:px-16">
             <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl text-blue-300 font-bold pb-1  leading-tight">
               ICERCS-2026
@@ -168,13 +164,10 @@ export default function Home() {
               </span>
             </div>
 
-            {/* Image Slider */}
             <div className="mt-2 ml-5 w-full ">
               <div className="mx-2 sm:-mx-3 md:-mx-4 ml-36 lg:-mx-6 xl:-mx-8 2xl:-mx-10 3xl:-mx-12 4xl:-mx-14 5xl:-mx-16">
                 <div className="relative overflow-hidden rounded-2xl w-full shadow-2xl h-60 sm:h-72 md:h-80 lg:h-[25rem] xl:h-[30rem] 2xl:h-[32rem] max-h-[67vh] border-4 border-gray-300">
-                  {/* Dynamic slides from 2026 folder */}
                   {[
-                    // 2026 images (1 (1).jpeg to 1 (34).jpeg)
                     ...Array.from({ length: 34 }, (_, i) => ({
                       src: `/2025/1 (${i + 1}).jpeg`,
                       alt: `ICERCS 2026 Image ${i + 1}`,
