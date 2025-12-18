@@ -3,7 +3,7 @@ export default function AboutICERCS() {
   return (
     <div className="container pt-5">
       <h3 className="text-3xl font-black pb-2 text-yellow-500">
-        About ICERCS&apos;25
+        About ICERCS&apos;26
       </h3>
       <p className="text-white text-justify text-sm">
         International Conference on Emerging Research in Computational Science
