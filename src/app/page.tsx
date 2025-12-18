@@ -160,13 +160,13 @@ export default function Home() {
               4<sup className="text-[6px]">th</sup> INTERNATIONAL CONFERENCE ON
               EMERGING RESEARCH IN COMPUTATIONAL SCIENCE - 2026
             </h1>
-            {/* <div className="flex items-center justify-center py-1">
-              <span className="text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold leading-tight line-through">
-                11<sup className="text-[6px]">th</sup>, 12
-                <sup className="text-[6px]">th</sup>, 13
+            <div className="flex items-center justify-center py-1">
+              <span className="text-xs sm:text-sm md:text-sm lg:text-base xl:text-lg 2xl:text-base 3xl:text-base text-yellow-400 font-bold ">
+                10<sup className="text-[6px]">th</sup>, 11
+                <sup className="text-[6px]">th</sup>, 12
                 <sup className="text-[6px]">th</sup> December 2026
               </span>
-            </div> */}
+            </div>
 
             {/* Image Slider */}
             <div className="mt-2 ml-5 w-full ">
