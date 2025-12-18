@@ -157,7 +157,7 @@ export default function Home() {
               ICERCS-2026
             </h1>
             <h1 className="text-center text-[8px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[20px] 4xl:text-[22px] font-medium leading-normal text-white">
-              3<sup className="text-[6px]">rd</sup> INTERNATIONAL CONFERENCE ON
+              4<sup className="text-[6px]">th</sup> INTERNATIONAL CONFERENCE ON
               EMERGING RESEARCH IN COMPUTATIONAL SCIENCE - 2026
             </h1>
             {/* <div className="flex items-center justify-center py-1">
