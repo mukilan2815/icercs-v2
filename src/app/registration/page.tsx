@@ -85,7 +85,7 @@ export default function Registration() {
 
             <div className="text-white text-center">
               <p className="pt-2 text-lg font-bold">Conference Date</p>
-              <h4 className="text-xl">11, 12 and 13th Dec, 2026</h4>
+              <h4 className="text-xl">10, 11 and 12th Dec, 2026</h4>
             </div>
           </div>
 
