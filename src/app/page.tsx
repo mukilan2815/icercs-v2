@@ -146,7 +146,7 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-      <div className="w-full lg:pl-[320px] lg:pr-[380px] -pt-72 pb-8">
+      <div className="w-full lg:pl-10 lg:pr-[380px] -pt-72 pb-8">
         <div className="flex flex-col justify-center">
           <div className=" px-2  sm:px-3 md:py-2 md:px-4 lg:px-6 xl:px-8 2xl:px-10 3xl:px-12 4xl:px-14 5xl:px-16">
             <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl text-blue-300 font-bold pb-1  leading-tight">
@@ -164,8 +164,8 @@ export default function Home() {
               </span>
             </div>
 
-            <div className="mt-2 ml-5 w-full ">
-              <div className="mx-2 sm:-mx-3 md:-mx-4 ml-36 lg:-mx-6 xl:-mx-8 2xl:-mx-10 3xl:-mx-12 4xl:-mx-14 5xl:-mx-16">
+            <div className="mt-2 w-full ">
+              <div className="mx-2 sm:-mx-3 md:-mx-4 lg:-mx-6 xl:-mx-8 2xl:-mx-10 3xl:-mx-12 4xl:-mx-14 5xl:-mx-16">
                 <div className="relative overflow-hidden rounded-2xl w-full shadow-2xl h-60 sm:h-72 md:h-80 lg:h-[25rem] xl:h-[30rem] 2xl:h-[32rem] max-h-[67vh] border-4 border-gray-300">
                   {[
                     ...Array.from({ length: 34 }, (_, i) => ({

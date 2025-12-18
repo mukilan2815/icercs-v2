@@ -125,13 +125,13 @@ const Navbar = () => {
 
         {/* Right Logo */}
         <div className="flex mt-5 items-center gap-3">
-          <Image
+          {/* <Image
             src="/ieeemadras.png"
             alt="IEEE Madras"
             width={150}
             height={150}
             className="shrink-0"
-          />
+          /> */}
           <Image
             src="/whitelogo.png"
             alt="Logo"
