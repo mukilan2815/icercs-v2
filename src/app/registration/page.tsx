@@ -72,7 +72,7 @@ export default function Registration() {
           </h3>
 
           <div className="space-y-3">
-            <DateWithLabel date="08/12/2026" label="Full Paper Submission" />
+            <DateWithLabel date="01/12/2026" label="Full Paper Submission" />
             <DateWithLabel date="09/12/2026" label="Paper Acceptance" />
             <DateWithLabel
               date="09/12/2026"
