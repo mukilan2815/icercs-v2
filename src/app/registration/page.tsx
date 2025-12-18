@@ -72,20 +72,20 @@ export default function Registration() {
           </h3>
 
           <div className="space-y-3">
-            <DateWithLabel date="08/12/2025" label="Full Paper Submission" />
-            <DateWithLabel date="09/12/2025" label="Paper Acceptance" />
+            <DateWithLabel date="08/12/2026" label="Full Paper Submission" />
+            <DateWithLabel date="09/12/2026" label="Paper Acceptance" />
             <DateWithLabel
-              date="09/12/2025"
+              date="09/12/2026"
               label="Camera Ready Paper Submission"
             />
             <DateWithLabel
-              date="09/12/2025"
+              date="09/12/2026"
               label="Last Date for Registration Payment"
             />
 
             <div className="text-white text-center">
               <p className="pt-2 text-lg font-bold">Conference Date</p>
-              <h4 className="text-xl">11, 12 and 13th Dec, 2025</h4>
+              <h4 className="text-xl">11, 12 and 13th Dec, 2026</h4>
             </div>
           </div>
 
@@ -95,10 +95,10 @@ export default function Registration() {
           <div className="text-center text-white pt-2">
             <p>Use this link for submission</p>
             <Link
-              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICERCS2025"
+              href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICERCS2026"
               className="break-all underline hover:text-secondary transition-colors"
             >
-              https://cmt3.research.microsoft.com/ICERCS2025
+              https://cmt3.research.microsoft.com/ICERCS2026
             </Link>
            
           </div>
