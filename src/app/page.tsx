@@ -176,7 +176,7 @@ export default function Home() {
                   {[
                     // 2026 images (1 (1).jpeg to 1 (34).jpeg)
                     ...Array.from({ length: 34 }, (_, i) => ({
-                      src: `/2026/1 (${i + 1}).jpeg`,
+                      src: `/2025/1 (${i + 1}).jpeg`,
                       alt: `ICERCS 2026 Image ${i + 1}`,
                     })),
                   ].map((img, index) => (
